@@ -1,7 +1,7 @@
 import * as toastr from 'toastr';
 import * as Cookies from 'js-cookie';
 
-const ajax  = require('vendors/ajax');
+const ajax  = require('./vendors/ajax/ajax.min.js');
 
 export interface Offset {
     top: number,

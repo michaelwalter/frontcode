@@ -13,5 +13,8 @@ Style guide: partials.header
 
   &__row {
     padding: 20px 0;
+    &:not(:last-child) {
+      border-bottom: 1px color('SIXTH') solid;
+    }
   }
 }

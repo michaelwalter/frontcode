@@ -1,0 +1,45 @@
+.separator {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+
+  hr {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    color: color('SECONDARY');
+    background: currentColor;
+    border: none;
+  }
+
+  &--transparent {
+    hr {
+      color: transparent;
+    }
+  }
+
+  &--x-small {
+    height: 20px;
+    line-height: 20px;
+  }
+
+  &--small {
+    height: 40px;
+    line-height: 40px;
+  }
+
+  &--large {
+    height: 120px;
+    line-height: 120px;
+  }
+
+  &--grey {
+    hr {
+      height: 1px;
+      color: color('SIXTH');
+    }
+  }
+}

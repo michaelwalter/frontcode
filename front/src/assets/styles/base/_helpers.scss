@@ -25,7 +25,6 @@
   padding-left: 13px; /* 3 */
   padding-right: 13px; /* 3 */
   width: 100%; /* 1 */
-  background: inherit;
  }
 
 /**
@@ -84,6 +83,10 @@
 .h-color {
   &--primary {
     color: color('PRIMARY');
+  }
+
+  &--secondary {
+    color: color('SECONDARY');
   }
 }
 

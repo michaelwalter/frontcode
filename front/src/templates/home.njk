@@ -1,28 +1,53 @@
 {% import "_components/components.njk" as components %}
 {% set page = 'HOME' %}
-{% set title = 'Starter - strona główna' %}
+{% set title = 'Frontcode - strona główna' %}
 {% extends "_layouts/default.njk" %}
 {% block content %}
 
-    <article class="app-section">
+    <article class="app-section app-section--bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="col-content">
-                        {{ components.text(
-                            content = '
-                                <h1>Strona główna</h1>
-                                <p>Komponent tekstowy</p>
-                            '
-                        ) }}
-
-                        <section class="example || app-component" data-component="example">
-                            <p>Example Component</p>
+                        <section class="slogan || app-component" data-component="slogan">
+                            <div class="slogan__content">
+                                <h1 class="slogan__text" data-ref="text">Tworzymy nową <br> <strong>rzeczywistość</strong> <br> od podstaw<strong>.</strong></h1>
+                            </div>
                         </section>
                     </div>
                 </div>
             </div>
         </div>
     </article>
+
+    {#<article class="app-section">#}
+        {#<div class="container">#}
+            {#<div class="row">#}
+                {#<div class="col-md-12">#}
+                    {#<div class="col-content">#}
+                        {#<article class="simple-heading">#}
+                            {#<h2 class="simple-heading__title">Pasja, wizje, cele...</h2>#}
+                        {#</article>#}
+
+                        {#<article class="separator separator--transparent">#}
+                            {#<hr>#}
+                        {#</article>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</div>#}
+            {#<div class="row">#}
+                {#<div class="col-md-6">#}
+                    {#<article class="app-text app-text--large">#}
+                        {#<h3 class="h-color--primary">Usługi</h3>#}
+                        {#<p>Jesteśmy zespołem specjalistów w zakresie wytwarzania oprogramowania w technologiach Front End'owych. Możemy pochwalić się (i robimy to) wieloletnim doświadczeniem nabytym dzięki pasji do tego w czym się realizujemy każdego dnia. Naszą misją jest dostarczanie oprogramowania jak najwyższej jakości.</p>#}
+                    {#</article>#}
+                {#</div>#}
+
+                {#<div class="col-md-6">#}
+                    {#&nbsp;#}
+                {#</div>#}
+            {#</div>#}
+        {#</div>#}
+    {#</article>#}
 
 {% endblock %}

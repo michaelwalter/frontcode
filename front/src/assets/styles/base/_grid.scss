@@ -26,12 +26,6 @@ $half-gutter-width: $gutter-width * .5;
   margin: 0 auto;
 }
 
-.container {
-  > .row {
-    background: inherit;
-  }
-}
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;

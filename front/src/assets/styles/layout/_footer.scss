@@ -9,12 +9,15 @@ Style guide: partials.footer
 */
 .app-footer {
   position: relative;
-  font-size: calculateRem(13px);
-  background: color('SEVENTH');
+  font-size: calculateRem(12px);
   z-index: 3;
+  opacity: 0;
+  animation: fadein 1s ease-in;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
 
   &__row {
     position: relative;
-    padding: 40px 0;
+    padding: 30px 0;
   }
 }

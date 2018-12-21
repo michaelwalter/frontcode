@@ -1,0 +1,10 @@
+.simple-heading {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: color('PRIMARY');
+
+  &__title {
+    margin: 0;
+  }
+}

@@ -6,3 +6,13 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes sloganBorderWidth {
+  from { width: 0px; }
+  to { width: 2000px; }
+}

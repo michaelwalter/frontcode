@@ -1,10 +1,11 @@
 import {Utils} from "./utils";
 import {Component} from './component';
-
-import {Example} from "./components/example/example";
+import {Animation} from "./components/animation/animation";
+import {Slogan} from "./components/slogan/slogan";
 
 const availableComponents = {
-    example: Example
+    animation: Animation,
+    slogan: Slogan
 };
 
 export class App {

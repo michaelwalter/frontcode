@@ -1,0 +1,32 @@
+.social-links {
+  position: relative;
+
+  &__list {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -12px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 7px;
+  }
+
+  &__link {
+    display: block;
+    padding: 5px;
+    font-size: calculateRem(20px);
+    line-height: 1;
+
+    i {
+      display: block;
+    }
+
+    &:hover {
+      color: color('SECONDARY');
+    }
+  }
+}
