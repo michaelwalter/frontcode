@@ -1,0 +1,32 @@
+.banner {
+  position: relative;
+  padding: 60px;
+  overflow: hidden;
+
+  &__title {
+    font-size: calculateRem(28px);
+    font-weight: 600;
+    letter-spacing: .05em;
+  }
+
+  &__subtitle {
+    font-size: calculateRem(16px);
+    font-weight: 400;
+  }
+
+
+
+  &__title, &__subtitle {
+    & + & {
+      margin-top: 15px;
+    }
+  }
+
+  &__button {
+    margin-top: 30px;
+  }
+
+  &--default {
+    background: rgba(71, 161, 239, 0.5);
+  }
+}

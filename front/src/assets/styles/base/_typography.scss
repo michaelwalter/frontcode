@@ -1,7 +1,7 @@
 body {
   color: color('FOURTH');
-  font: normal 15px font('BODY');
-  line-height: 1.66;
+  font: 400 15px font('BODY');
+  line-height: 2;
 }
 
 button, a, input, select, textarea {
@@ -49,7 +49,7 @@ h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: 3.3em;
+  font-size: 2.5em;
   line-height: calculateRem(50px);
 }
 
@@ -84,6 +84,11 @@ h6, .h6 {
 p, a, ul, ol {
   margin: 0;
   padding: 0;
+}
+
+p:empty {
+  display: block;
+  height: .5em;
 }
 
 .link {

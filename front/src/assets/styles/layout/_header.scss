@@ -10,11 +10,10 @@ Style guide: partials.header
 .app-header {
   position: relative;
   z-index: 10;
+  opacity: 0;
+  animation: fadeInDown 2s .5s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
 
   &__row {
-    padding: 20px 0;
-    &:not(:last-child) {
-      border-bottom: 1px color('SIXTH') solid;
-    }
+    padding: 60px 100px;
   }
 }

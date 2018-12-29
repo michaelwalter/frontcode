@@ -12,12 +12,10 @@ Style guide: partials.footer
   font-size: calculateRem(12px);
   z-index: 3;
   opacity: 0;
-  animation: fadein 1s ease-in;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
+  animation: fadeInUp 2s .5s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
 
   &__row {
     position: relative;
-    padding: 30px 0;
+    padding: 60px 100px;
   }
 }

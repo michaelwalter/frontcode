@@ -1,0 +1,89 @@
+$component: '.product';
+.product {
+  position: relative;
+  margin: 40px 0;
+
+  &__counter {
+    position: absolute;
+    top: -40px;
+    right: 100%;
+    margin-right: 25px;
+    font-size: calculateRem(120px);
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 1;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background: darken(color('PRIMARY'), 30%);
+    z-index: 1;
+
+    img {
+      display: inline-block;
+      max-width: 120px;
+      max-height: 120px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+  }
+
+  &__text {
+    margin-top: 75px;
+  }
+
+  &__name {
+    display: block;
+    padding: 40px 60px;
+    color: darken(color('PRIMARY'), 25%);
+    background: #ffffff;
+  }
+
+  &__description {
+    position: relative;
+    display: block;
+    width: 90%;
+    padding: 40px;
+    left: -150px;
+    background: darken(color('PRIMARY'), 25%);
+    z-index: 2;
+  }
+
+  &__title {
+    font-size: calculateRem(46px);
+    font-weight: 700;
+
+    span {
+      display: inline-block;
+      padding-bottom: 10px;
+      border-bottom: 8px currentColor solid;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    margin-top: 30px;
+    font-size: calculateRem(16px);
+  }
+
+  &--inverse {
+    #{$component}__description {
+      float: right;
+      left: auto;
+      right: -150px;
+    }
+  }
+}

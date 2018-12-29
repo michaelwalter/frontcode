@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div id="app" class="app">
+    <div id="app" class="app app--dark app--{{ page | lower }}">
         {% include "_partials/header.njk" %}
         <main class="app-main">
             {% block content %}{{content}}{% endblock %}

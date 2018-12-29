@@ -1,0 +1,140 @@
+/*
+Przycisk
+
+Weight: -98
+
+Rodzaje przycisków mozliwych do użycia na stronie
+
+.btn--primary  - Przycisk czerwony brandowany
+.btn--primary.btn--rounded - Przycisk czerwony z zakroąglonymi rogami
+.btn--primary.btn--outline  - Przycisk brandowany z czerwonym obramowaniem
+:disabled - Przycisk nieaktywny
+.btn--primary.btn--small - Przycisk o małych rozmiarach
+
+Markup: ../../templates/_components/button.njk
+
+Style guide: components.button
+*/
+
+@mixin button-states ($buttonColor, $textColor, $isDisabled:false) {
+  color: $textColor;
+  background: $buttonColor;
+  border-color: $buttonColor;
+
+  $hoverColor: lighten($textColor, 10%);
+  $hoverBackground: lighten($buttonColor, 10%);
+
+  @if $isDisabled == false {
+    &:hover, &.h-hover {
+      box-shadow: 0 0 50px 0 rgba($buttonColor, .5);
+    }
+  }
+
+  &.btn--outline {
+    @if $isDisabled {
+      $buttonColor: darken($buttonColor, 15%);
+    }
+    color: $buttonColor;
+    background: transparent;
+    border-color: $buttonColor;
+
+    @if $isDisabled == false {
+      @if $buttonColor == color('LIGHT') {
+        $buttonColor: color('PRMARY');
+      }
+      &:hover, &.h-hover {
+        color: $buttonColor;
+        background-color: $hoverBackground;
+        //box-shadow: none;
+      }
+    }
+  }
+}
+
+@mixin button ($color, $textColor:'LIGHT') {
+  $buttonColor: color($color);
+  $textColor: color($textColor);
+
+  @include button-states($buttonColor, $textColor);
+
+  &:disabled, &.h-disabled {
+    $buttonColor: color('SIXTH');
+    $textColor: color('FIFTH');
+    @include button-states($buttonColor, $textColor, true);
+  }
+}
+
+.btn {
+  display: inline-block;
+  min-height: 45px;
+  padding: 18px 30px 15px 30px;
+  font-size: calculateRem(10px);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: calculateRem(16px);
+  color: white;
+  background: color('PRIMARY');
+  border: 2px color('PRIMARY') solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 100ms linear;
+
+  @include button('THIRD', 'LIGHT');
+
+  i, span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+
+    & + i, & + span {
+      margin-left: 5px;
+    }
+  }
+
+  &--small {
+    padding: 6px 15px;
+    min-height: 0;
+    font-size: calculateRem(9px);
+    font-weight: 600;
+    letter-spacing: .15em;
+  }
+
+  &:disabled, .h-disabled {
+    cursor: default;
+  }
+}
+
+.btn--primary {
+  @include button('PRIMARY', 'LIGHT');
+}
+
+.btn--secondary {
+  @include button('SECONDARY', 'LIGHT');
+}
+
+.btn--light {
+  @include button('LIGHT', 'PRIMARY');
+}
+
+.btn--rounded {
+  border-radius: 50px;
+}
+
+
+
+@include media-query-max(size('LARGE')) {
+  .btn {
+    padding: 12px 15px;
+    font-size: calculateRem(12px);
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .btn {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,3 +1,4 @@
+$component: '.app-navigation';
 .app-navigation {
   display: block;
 
@@ -9,20 +10,35 @@
 
   &__item {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
+    padding: 0 30px;
     transition: color 50ms linear;
     &.active, &:hover {
-      color: color('SECONDARY');
+      #{$component}__link::after {
+        width: 100%;
+      }
     }
   }
 
   &__link {
+    position: relative;
     display: block;
-    padding: 0 30px;
-    font-size: calculateRem(14px);
-    font-weight: 500;
+    padding: 10px 0;
+    font-size: calculateRem(12px);
+    font-weight: 600;
+    text-transform: uppercase;
     letter-spacing: 1px;
     color: inherit;
     line-height: 1;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: color('SECONDARY');
+      transition: 75ms width ease-in-out;
+    }
   }
 }

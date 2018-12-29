@@ -1,0 +1,30 @@
+.custom-heading {
+  position: relative;
+  display: block;
+  margin: 15px 0;
+
+
+
+  &__title {
+    position: relative;
+    display: block;
+    font-weight: 600;
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      bottom: .28em;
+      width: .71em;
+      height: .25em;
+      margin-right: 25px;
+      background: color('SECONDARY');
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    margin-top: 15px;
+    font-size: calculateRem(20px);
+  }
+}

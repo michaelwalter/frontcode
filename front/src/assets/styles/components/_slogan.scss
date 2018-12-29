@@ -1,63 +1,36 @@
 .slogan {
   position: relative;
   display: block;
-  padding: 60px 0;
 
-  &__text {
+  &__title {
     display: inline;
     position: relative;
     margin: 0 -.037em;
-    font-size: calculateRem(90px);
+    font-size: calculateRem(55px);
     font-weight: 700;
-    color: color('PRIMARY');
-    line-height: 1.5em;
-
+    letter-spacing: .05em;
+    line-height: 1.2em;
 
     strong {
-      font-weight: inherit;
+      font-weight: 700;
       color: color('SECONDARY');
-    }
-
-    &::before, &::after {
-      content: "";
-      display: none;
-      position: absolute;
-      width: 2000px;
-      height: 5px;
-      background: color('SECONDARY');
-      border-radius: 15px;
-      overflow: hidden;
-    }
-
-    &::before {
-      top: .33em;
-      right: 100%;
-      margin-right: 30px;
-    }
-
-    &::after {
-      bottom: .45em;
-      margin-left: 30px;
     }
   }
 
-  //&::after {
-  //  content: "";
-  //  position: absolute;
-  //  bottom: 0;
-  //  left: 0;
-  //  width: 0;
-  //  height: 15px;
-  //  background: color('SIXTH');
-  //  animation: sloganBorderWidth 1.5s ease-out;
-  //  animation-delay: 3.4s;
-  //  animation-fill-mode: forwards;
-  //  box-shadow: inset -200px 0px 200px -50px #ffffff;
-  //}
+  &__text {
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    padding: 30px 0;
+    max-width: 900px;
+    font-size: calculateRem(16px);
+    font-weight: 300;
+    line-height: 2;
+  }
 }
 
 .typed-cursor {
-  font-size: calculateRem(80px);
-  font-weight: 500;
+  font-size: calculateRem(60px);
+  font-weight: 400;
   color: color('SECONDARY');
 }

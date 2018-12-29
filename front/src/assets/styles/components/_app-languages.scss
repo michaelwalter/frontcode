@@ -1,3 +1,4 @@
+$component: '.app-languages';
 .app-languages {
   display: inline-block;
   margin: 0;
@@ -8,35 +9,40 @@
     position: relative;
     display: inline-block;
     vertical-align: middle;
+    padding: 0 5px;
+    text-align: center;
 
     &:not(:first-child)::before {
       content: "";
       position: absolute;
       top: 0;
       bottom: 0;
-      left: -1px;
+      left: -3px;
       margin: auto;
-      width: 1px;
+      width: 2px;
       height: 20px;
-      font-size: calculateRem(20px);
       background: color('FIFTH');
       transform: rotate(15deg);
     }
 
-    &.current {
-      color: color('SECONDARY');
+    &.current, &:hover {
+      #{$component}__language-link {
+        background: color('SECONDARY');
+      }
     }
   }
 
   &__language-link {
     display: block;
-    padding: 0 10px;
-    font-size: calculateRem(14px);
-    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    font-size: calculateRem(12px);
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
     color: inherit;
-
-    &:hover {
-      color: color('SECONDARY');
-    }
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 100ms linear;
   }
 }

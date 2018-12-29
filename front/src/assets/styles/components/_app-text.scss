@@ -2,6 +2,8 @@
   position: relative;
 
   &--large {
-    font-size: calculateRem(18px);
+    font-size: calculateRem(16px);
+    font-weight: 300;
+    line-height: 1.75;
   }
 }

@@ -20,13 +20,14 @@
     padding: 5px;
     font-size: calculateRem(20px);
     line-height: 1;
+    transition: all 200ms linear;
 
     i {
       display: block;
     }
 
-    &:hover {
-      color: color('SECONDARY');
+    &:hover i {
+      text-shadow: 0 0 30px currentColor;
     }
   }
 }

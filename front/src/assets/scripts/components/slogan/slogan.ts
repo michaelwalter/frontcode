@@ -12,7 +12,7 @@ export class Slogan extends Component {
     }
 
     protected onMounted(): void {
-        this.initialize();
+        // this.initialize();
     }
 
     protected onUnmounted(): void {
@@ -26,7 +26,7 @@ export class Slogan extends Component {
 
         new Typed('.' + this.id, {
             strings: ["Tworzymy nową <br> <strong>rzeczywistość</strong> <br> od podstaw"],
-            typeSpeed: 50,
+            typeSpeed: 75,
             cursorChar: "I"
         });
     }

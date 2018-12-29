@@ -8,6 +8,7 @@
   hr {
     content: "";
     display: inline-block;
+    vertical-align: middle;
     width: 100%;
     height: 2px;
     color: color('SECONDARY');
@@ -22,8 +23,8 @@
   }
 
   &--x-small {
-    height: 20px;
-    line-height: 20px;
+    height: 30px;
+    line-height: 30px;
   }
 
   &--small {
@@ -31,14 +32,24 @@
     line-height: 40px;
   }
 
+  &--x-large {
+    height: 90px;
+    line-height: 90px;
+  }
+
   &--large {
     height: 120px;
     line-height: 120px;
   }
 
+  &--short {
+    hr {
+      max-width: 200px;
+    }
+  }
+
   &--grey {
     hr {
-      height: 1px;
       color: color('SIXTH');
     }
   }
