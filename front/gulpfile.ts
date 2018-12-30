@@ -42,9 +42,9 @@ const CSS = {
 };
 
 const JS = {
-    SRC: DIR.SRC + 'assets/scripts/scripts.ts',
+    SRC: DIR.SRC + 'assets/scripts/scripts.tsx',
     BUILD: DIR.BUILD + 'assets/scripts/',
-    WATCH: DIR.SRC + 'assets/scripts/**/*.ts',
+    WATCH: DIR.SRC + 'assets/scripts/**/*.{ts,tsx}',
     ROOT: DIR.SRC + 'assets/scripts/'
 };
 
@@ -188,6 +188,12 @@ export class Gulpfile {
         return ['fonts', 'reload'];
     }
 
+    @Task()
+    copyHtaccess() {
+        return gulp.src(DIR.SRC + '.htaccess',)
+            .pipe(gulp.dest(DIR.BUILD));
+    }
+
     /**
      * Remove DIST (BUILD) folder
      *
@@ -206,7 +212,7 @@ export class Gulpfile {
      */
     @SequenceTask()
     build() {
-        return ['clean', 'fonts', 'images', 'styles', 'scripts', 'templates'];
+        return ['clean', 'copyHtaccess', 'fonts', 'images', 'styles', 'scripts', 'templates'];
     }
 
     /**
@@ -217,7 +223,7 @@ export class Gulpfile {
      */
     @SequenceTask('build:prod')
     buildProduction() {
-        return ['setProdEnv', 'clean', 'fonts', 'images', 'styles', 'scripts', 'templates'];
+        return ['setProdEnv', 'clean', 'copyHtaccess', 'fonts', 'images', 'styles', 'scripts', 'templates'];
     }
 
     /**
@@ -233,6 +239,16 @@ export class Gulpfile {
                 notify: false,
                 server: {
                     baseDir: DIR.BUILD,
+                },
+                callbacks: {
+                    ready: function(err, bs) {
+                        bs.addMiddleware("*", function (req, res) {
+                            res.writeHead(302, {
+                                location: "/"
+                            });
+                            res.end("Redirecting!");
+                        });
+                    }
                 }
             });
         }
