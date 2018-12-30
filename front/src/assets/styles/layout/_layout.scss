@@ -84,6 +84,14 @@
   &--bottom {
     justify-content: flex-end;
   }
+
+  &--wide {
+    > .container {
+      max-width: none;
+      margin: auto;
+      padding: 0;
+    }
+  }
 }
 
 .app-component {

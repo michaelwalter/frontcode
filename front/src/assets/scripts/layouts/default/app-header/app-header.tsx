@@ -52,7 +52,7 @@ export class AppHeader extends React.Component {
                                     <li className="app-languages__language current">
                                         <a href="#" className="app-languages__language-link">pl</a>
                                     </li>
-                                    <li className="app-languages__language">
+                                    <li className="app-languages__language app-languages__language--disabled">
                                         <a href="#" className="app-languages__language-link">en</a>
                                     </li>
                                 </ul>

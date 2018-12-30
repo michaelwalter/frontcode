@@ -1,40 +1,28 @@
 import * as React from "react";
+import {Link} from "react-router-dom";
+import {Mocks} from "../../utils/mocks";
 
-interface SloganProps {
+interface ComponentProps {
     id: string
 }
 
-interface SloganState {
-    title: string;
-    description: string;
-    url: string;
-    specialWords: Array<string>,
-    currentSpecialWordIndex: number,
+interface ComponentState {
+    title: string
+    description: string
+    url: string
+    specialWords: Array<string>
+    currentSpecialWordIndex: number
     titleWithSpecialWord: string
 }
 
-
-export class Slogan extends React.Component<SloganProps, SloganState> {
+export class Slogan extends React.Component<ComponentProps, ComponentState> {
+    private carouselInterval: any;
 
     constructor (props) {
         super (props);
-        this.initializeState();
-    }
-
-    componentDidMount(): void {
-        fetch("https://df764933-a9ed-4745-9a3f-06b41dad4dc2.mock.pstmn.io/api/slogan")
-            .then(res => res.json())
-            .then(json => {
-                this.setState({ ...Object.assign({}, json) }, () => {
-                    this.initializeRenderers();
-                });
-            });
-    }
-
-    private initializeState (): void {
         this.state = {
-            title: "",
-            description: "",
+            title: "Frontcode",
+            description: "Tworzymy nową rzeczywistość od podstaw",
             url: "",
             specialWords: [],
             currentSpecialWordIndex: 0,
@@ -42,27 +30,37 @@ export class Slogan extends React.Component<SloganProps, SloganState> {
         };
     }
 
-    private initializeRenderers (): void {
+    componentDidMount(): void {
+        this.setState({...Object.assign({}, Mocks[this.props.id])}, () => {
+           this.initializeRenders();
+        });
+    }
+
+    componentWillUnmount(): void {
+        clearInterval(this.carouselInterval);
+    }
+
+    private initializeRenders (): void {
         this.titleCarousel();
     }
 
     private titleCarousel (): void {
         let counter = 0;
         const start = () => {
-            setInterval(() => {
+            this.carouselInterval = setInterval(() => {
                 counter = this.state.specialWords[counter + 1] ? counter + 1 : 0;
                 this.setState({
-                    titleWithSpecialWord: this.renderTile(this.state.specialWords[counter]),
+                    titleWithSpecialWord: this.renderTitle(this.state.specialWords[counter]),
                     currentSpecialWordIndex: counter
                 });
             }, 3000);
         };
         this.setState({
-            titleWithSpecialWord: this.renderTile(this.state.specialWords[counter])
+            titleWithSpecialWord: this.renderTitle(this.state.specialWords[counter])
         },  start);
     }
 
-    private renderTile (specialWord): string {
+    private renderTitle (specialWord): string {
         return this.state.title.replace('${specialWord}', specialWord);
     };
 
@@ -72,9 +70,7 @@ export class Slogan extends React.Component<SloganProps, SloganState> {
                 <div className="slogan__content">
                     <h1 className="slogan__title" dangerouslySetInnerHTML={{__html: this.state.titleWithSpecialWord}}></h1>
                     <p className="slogan__text">{this.state.description}</p>
-                    <a href={this.state.url} className="slogan__button || btn btn--light btn--rounded btn--outline">
-                        Dowiedz się więcej
-                    </a>
+                    <Link to={this.state.url} className="slogan__button || btn btn--light btn--rounded btn--outline">Dowiedz się więcej</Link>
                 </div>
             </section>
         );

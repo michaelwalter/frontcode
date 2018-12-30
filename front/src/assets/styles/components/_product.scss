@@ -80,6 +80,9 @@ $component: '.product';
   }
 
   &--inverse {
+    #{$component}__content {
+      flex-direction: row-reverse;
+    }
     #{$component}__description {
       float: right;
       left: auto;
