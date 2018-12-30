@@ -2,42 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1075e8c6-b85c-487a-a58d-058d2f84e704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_custom-heading.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_mini-contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_mini-sitemap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_product.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/templates/contact.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/templates/services.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/app-footer/app-footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/app-header/app-header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/layout-wrapper/layout-wrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/pages/contact/contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/pages/home/home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/pages/services/services.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/pages/stuff/stuff.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/images/frontcode.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/images/frontcode.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/images/signature-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/images/signature-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/images/signature-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/images/signature-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/abstracts/_keyframes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/abstracts/_keyframes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_separator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_social-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/gulpfile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/gulpfile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/animation/animation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/scripts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/utils.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/templates/_layouts/default.njk" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/templates/_layouts/default.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/templates/_partials/footer.njk" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/templates/_partials/footer.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/templates/_partials/header.njk" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/templates/_partials/header.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/templates/home.njk" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/templates/home.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/templates/portfolio.njk" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/templates/stuff.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/templates/home.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/templates/index.njk" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/templates/index.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,14 +42,87 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/front/src/templates/stuff.njk">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="110" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="110" />
+                <state relative-caret-position="460">
+                  <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
                   <folding>
-                    <element signature="e#2248#2254#1#HTML" expanded="true" />
-                    <element signature="e#4292#4298#1#HTML" expanded="true" />
-                    <element signature="e#6540#6546#1#HTML" expanded="true" />
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/stuff/stuff.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/services/services.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/contact/contact.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/home/home.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="309">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/layout-wrapper/layout-wrapper.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-footer/app-footer.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-header/app-header.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -88,20 +150,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+                <state relative-caret-position="253">
+                  <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_product.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="171">
-                  <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+                  <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -172,23 +234,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/style.css" />
-        <option value="$PROJECT_DIR$/front/src/assets/styles/base/_grid.scss" />
-        <option value="$PROJECT_DIR$/front/gulpfile.ts" />
-        <option value="$PROJECT_DIR$/front/src/assets/scripts/utils.ts" />
-        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/cover-section.ts" />
-        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/cover-section/cover-section.ts" />
-        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_simple-heading.scss" />
-        <option value="$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss" />
-        <option value="$PROJECT_DIR$/front/src/assets/styles/base/_fonts.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/scripts/components/animation/animation.ts" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_signature-area.scss" />
-        <option value="$PROJECT_DIR$/front/src/assets/scripts/scripts.ts" />
         <option value="$PROJECT_DIR$/front/src/templates/portfolio.njk" />
         <option value="$PROJECT_DIR$/front/.gitignore" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_mini-sitemap.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/images/frontcode-light.svg" />
-        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.ts" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-text.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_social-links.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss" />
@@ -197,7 +248,6 @@
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss" />
         <option value="$PROJECT_DIR$/front/src/templates/_partials/footer.njk" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_mini-contact.scss" />
-        <option value="$PROJECT_DIR$/front/src/templates/_layouts/default.njk" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss" />
@@ -205,8 +255,6 @@
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss" />
-        <option value="$PROJECT_DIR$/front/src/templates/home.njk" />
-        <option value="$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_button.scss" />
         <option value="$PROJECT_DIR$/front/src/templates/services.njk" />
         <option value="$PROJECT_DIR$/front/src/templates/_partials/header.njk" />
@@ -218,6 +266,25 @@
         <option value="$PROJECT_DIR$/front/src/templates/contact.njk" />
         <option value="$PROJECT_DIR$/front/src/assets/styles/components/_product.scss" />
         <option value="$PROJECT_DIR$/front/src/templates/stuff.njk" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.ts" />
+        <option value="$PROJECT_DIR$/front/tsconfig.json" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/scripts.ts" />
+        <option value="$PROJECT_DIR$/front/src/templates/home.njk" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/header/header.tsx" />
+        <option value="$PROJECT_DIR$/front/src/templates/_layouts/default.njk" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/app-footer/app-footer.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/layout-wrapper/layout-wrapper.tsx" />
+        <option value="$PROJECT_DIR$/front/dist/.htaccess" />
+        <option value="$PROJECT_DIR$/front/src/.htaccess" />
+        <option value="$PROJECT_DIR$/front/gulpfile.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/app-header/app-header.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/pages/stuff/stuff.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/pages/services/services.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/pages/contact/contact.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/pages/home/home.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx" />
       </list>
     </option>
   </component>
@@ -265,14 +332,6 @@
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +351,7 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="slogan" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
@@ -300,34 +359,10 @@
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
@@ -335,17 +370,10 @@
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
@@ -353,22 +381,6 @@
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="_partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -426,12 +438,12 @@
       <workItem from="1544360135630" duration="22000" />
       <workItem from="1545341738181" duration="36260000" />
       <workItem from="1545846207222" duration="36000" />
-      <workItem from="1545846264703" duration="47168000" />
+      <workItem from="1545846264703" duration="70426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124428000" />
+    <option name="totallyTimeSpent" value="147686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -440,7 +452,7 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -454,7 +466,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.23347548" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.23347548" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,88 +477,11 @@
       </list>
     </option>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/vendors/ajax/ajax.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/gulpfile.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="187" column="35" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_simple-heading.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/animation/animation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/cover-section/cover-section.ts" />
-    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/scripts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -578,13 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -665,44 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/home.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/_layouts/default.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/services.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#2875#2881#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/_partials/header.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/_partials/footer.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -731,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -752,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/contact.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_separator.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -766,22 +642,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/templates/stuff.njk">
+    <entry file="file://$PROJECT_DIR$/front/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/animation/animation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/_layouts/default.njk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="110" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="110" />
-          <folding>
-            <element signature="e#2248#2254#1#HTML" expanded="true" />
-            <element signature="e#4292#4298#1#HTML" expanded="true" />
-            <element signature="e#6540#6546#1#HTML" expanded="true" />
-          </folding>
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/_partials/footer.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="55" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_product.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/_partials/header.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/index.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="404" column="8" selection-start-line="404" selection-start-column="8" selection-end-line="404" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/stuff.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="121" column="10" selection-start-line="6" selection-end-line="121" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/gulpfile.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="231" column="7" lean-forward="true" selection-start-line="231" selection-start-column="7" selection-end-line="231" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/services.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/templates/contact.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="81" column="10" lean-forward="true" selection-start-line="6" selection-end-line="81" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-footer/app-footer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/layout-wrapper/layout-wrapper.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-header/app-header.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/services/services.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/contact/contact.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/stuff/stuff.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/pages/home/home.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
