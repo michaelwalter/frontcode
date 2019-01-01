@@ -263,7 +263,7 @@ export const Mocks = {
         "counter": "01",
         "title": "dropp.",
         "subtitle": "Aplikacja społecznościowa bazująca na technologi Augmented Reality",
-        "logoUrl": "assets/images/products/dropp.svg",
+        "logoUrl": "http://wordpress1809072.home.pl/frontcode.pl/assets/images/products/dropp.svg",
         "description": "<p>Aplikacja służy do dzielenia się ze społecznością swoimi wspomnieniami związanymi z wybranymi miejscami na świecie.</p>\n" +
             "<p>&nbsp;</p>\n" +
             "<p>Wykorzystując technologię AR możesz przeglądać zdjęcia i filmy osób, które znalazły się w miejscu obecnie przez Ciebie odwiedzanym. Ponadto sam możesz w tym miejscu \"upuścić\" własne zdjęcie i określić kto może je zobaczyć.</p>",
@@ -276,7 +276,7 @@ export const Mocks = {
         "counter": "02",
         "title": "startify.",
         "subtitle": "Środowisko do prowadzenia oraz rozwoju statycznych projektów Front End",
-        "logoUrl": "assets/images/products/startify.svg",
+        "logoUrl": "http://wordpress1809072.home.pl/frontcode.pl/assets/images/products/startify.svg",
         "description": "<p>Startify umożliwa błyskawiczne rozpoczęcie projektu z wykorzystaniem takich technologii jak Typescript, Sass, Nunjucks etc. przy wsparciu Gulpa oraz Webpacka.</p>\n" +
             "<p>&nbsp;</p>\n" +
             "<p>W projektach rozwijanych za pomocą Startify stawiamy na komponentowy podział funkcjonalności.</p>",
@@ -289,7 +289,7 @@ export const Mocks = {
         "counter": "03",
         "title": "kret",
         "subtitle": "Aplikacja wspomagająca rehabilitację dzieci z zespołem Retta",
-        "logoUrl": "assets/images/products/kret.svg",
+        "logoUrl": "http://wordpress1809072.home.pl/frontcode.pl/assets/images/products/kret.svg",
         "description": "<p>Kret to zbiór zadań oraz gier efektywnie wspomagających rehabilitację dzieci cierpiących na zespół Retta.</p>\n" +
             "<p>&nbsp;</p>\n" +
             "<p>Aplikacja ta jest zupełnie darmowa i dostępna dla każdej osoby chcącej wesprzeć rozwój swojego dziecka ze wspomnianym zespołem.</p>",
@@ -312,7 +312,7 @@ export const Mocks = {
     },
     "component-12": {
         "title": "Office",
-        "url": "./assets/images/team-picture.jpg",
+        "url": "http://wordpress1809072.home.pl/frontcode.pl/assets/images/team-picture.jpg",
         "modifiers": "app-picture--wide"
     },
     "component-13": {

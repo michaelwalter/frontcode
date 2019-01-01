@@ -2,6 +2,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { BrowserRouter, HashRouter, Switch, Redirect, Route } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { store} from "./store";
+import { Provider } from "react-redux";
 
 import {AppHeader} from "./layouts/default/app-header/app-header";
 import {AppFooter} from "./layouts/default/app-footer/app-footer";
@@ -39,7 +41,9 @@ export class App extends React.Component {
 if (container) {
     ReactDOM.render(
         (
-          <App />
+            <Provider store={store}>
+                <App />
+            </Provider>
         ),
         container
     );
