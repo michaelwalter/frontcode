@@ -7,10 +7,7 @@ import { Provider } from "react-redux";
 
 import {AppHeader} from "./layouts/default/app-header/app-header";
 import {AppFooter} from "./layouts/default/app-footer/app-footer";
-import {Home} from "./pages/home/home";
-import {Stuff} from "./pages/stuff/stuff";
-import {Services} from "./pages/services/services";
-import {Contact} from "./pages/contact/contact";
+import {Page} from "./layouts/default/page";
 
 const container = document.getElementById("app");
 
@@ -26,10 +23,10 @@ export class App extends React.Component {
                     <AppHeader />
                     <main className="app-main">
                         <Route exact path="/" render={() => <Redirect to="/home" />} />
-                        <Route path="/home" component={Home} />
-                        <Route path="/stuff" component={Stuff} />
-                        <Route path="/services" component={Services} />
-                        <Route path="/contact" component={Contact} />
+                        <Route path="/home" render={() => <Page id={"page-0"} />} />
+                        <Route path="/stuff" render={() => <Page id={"page-1"} />} />
+                        <Route path="/services" render={() => <Page id={"page-2"} />} />
+                        <Route path="/contact" render={() => <Page id={"page-3"} />} />
                     </main>
                     <AppFooter />
                 </div>

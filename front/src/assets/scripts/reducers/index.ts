@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { changeTitleSpecialWordReducer } from "./change-title-special-word";
+import { sloganReducer } from "./slogan/sloganReducer";
 
 export default combineReducers({
-    changeTitleSpecialWordReducer
+    slogan: sloganReducer
 });

@@ -83,7 +83,7 @@ export const Mocks = {
             }
         ]
     },
-    "page-3": {
+    "page-2": {
         "sections": [
             {
                 "id": "section-1",
@@ -187,7 +187,7 @@ export const Mocks = {
             }
         ]
     },
-    "page-4": {
+    "page-3": {
         "sections": [
             {
                 "id": "section-1",
@@ -242,15 +242,24 @@ export const Mocks = {
         ]
     },
     "component-1": {
-        "title": "Tworzymy nową <br/> <strong>${specialWord}</strong> <br/> od podstaw",
+        "title": "Tworzymy nową <br/> <strong>rzeczywistość</strong> <br/> od podstaw",
         "description": "Jesteśmy zespołem programistów Front End z wieloletnim doświadczeniem. Naszą misją jest wspieranie klientów w obszarze IT dostarczając przy tym oprogramowanie bardzo wysokiej jakości. Wiedzę zdobywaną przez nas latami wykorzystujemy skutecznie również w realizacji własnych pomysłów.",
         "specialWords": [
             "rzeczywistość",
             "jakość"
         ],
         "url": "/stuff",
-        "currentSpecialWordIndex": 0,
-        "titleWithSpecialWord": ""
+        "titleTemplate": "Tworzymy nową <br/> <strong>${specialWord}</strong> <br/> od podstaw"
+    },
+    "component-1-1": {
+        "title": "Lubimy Front End",
+        "description": "Jesteśmy zespołem programistów Front End z wieloletnim doświadczeniem. Naszą misją jest wspieranie klientów w obszarze IT dostarczając przy tym oprogramowanie bardzo wysokiej jakości. Wiedzę zdobywaną przez nas latami wykorzystujemy skutecznie również w realizacji własnych pomysłów.",
+        "specialWords": [
+            "rzeczywistość",
+            "jakość"
+        ],
+        "url": "/stuff",
+        "titleTemplate": "Lubimy Front End <br/> <strong>${specialWord}</strong> <br/> od podstaw"
     },
     "component-2": {
         "title": "Autorskie produkty przez nas rozwijane",

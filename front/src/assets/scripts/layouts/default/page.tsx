@@ -1,19 +1,22 @@
 import * as React from "react";
 import {Mocks} from "../../utils/mocks";
-import {LayoutBuilder} from "../../layouts/default/layout-builder";
+import {LayoutBuilder} from "./layout-builder";
 
-const stateMock = Mocks["page-4"];
+interface ComponentProps {
+    id: string
+}
 
-export class Contact extends React.Component<{}, {}> {
+export class Page extends React.Component<ComponentProps, {}> {
     constructor (props, state) {
         super (props, state);
     }
 
     componentDidMount(): void {
+        const stateMock = Mocks[this.props.id] || {};
         this.setState({ ...Object.assign({}, stateMock) });
     }
 
-    render() {
+    render () {
         return (
             <LayoutBuilder {...this.state} />
         );

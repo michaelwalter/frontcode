@@ -63,7 +63,7 @@ class AppColumn extends React.Component {
                     {this.props['components'].map(component => {
                         const ComponentName = Components[component['name']];
                         if (ComponentName) {
-                            return ( <ComponentName id={component.id} key={component.id} /> )
+                            return ( <ComponentName instanceId={component.id} key={component.id} /> )
                         }
                     })}
                 </div>
