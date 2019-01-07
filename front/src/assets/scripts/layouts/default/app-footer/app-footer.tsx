@@ -13,21 +13,21 @@ export class AppFooter extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-4 text-center">
-                            <div className="social-links">
-                                <ul className="social-links__list">
-                                    <li className="social-links__item">
-                                        <a href="" className="social-links__link"><i
-                                            className="f-icon--facebook" /></a>
-                                    </li>
-                                    <li className="social-links__item">
-                                        <a href="" className="social-links__link"><i
-                                            className="f-icon--linkedin" /></a>
-                                    </li>
-                                    <li className="social-links__item">
-                                        <a href="" className="social-links__link"><i className="f-icon--github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
+                            {/*<div className="social-links">*/}
+                                {/*<ul className="social-links__list">*/}
+                                    {/*<li className="social-links__item">*/}
+                                        {/*<a href="" className="social-links__link"><i*/}
+                                            {/*className="f-icon--facebook" /></a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="social-links__item">*/}
+                                        {/*<a href="" className="social-links__link"><i*/}
+                                            {/*className="f-icon--linkedin" /></a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="social-links__item">*/}
+                                        {/*<a href="" className="social-links__link"><i className="f-icon--github"></i></a>*/}
+                                    {/*</li>*/}
+                                {/*</ul>*/}
+                            {/*</div>*/}
                         </div>
                         <div className="col-sm-4 text-right">
                             <div className="mini-contact">

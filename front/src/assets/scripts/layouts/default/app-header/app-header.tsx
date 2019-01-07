@@ -18,41 +18,41 @@ export class AppHeader extends React.Component {
                             </div>
 
                             <div className="col-md-6 text-center">
-                                <nav className="app-navigation app-navigation--base">
-                                    <ul className="app-navigation__list">
-                                        <Route path="/home" children={({ match }) => (
-                                            <li className={"app-navigation__item" + (match ? " active " : "")}>
-                                                <Link to="/home" className="app-navigation__link">Strona główna</Link>
-                                            </li>
-                                        )} />
+                                {/*<nav className="app-navigation app-navigation--base">*/}
+                                    {/*<ul className="app-navigation__list">*/}
+                                        {/*<Route path="/home" children={({ match }) => (*/}
+                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
+                                                {/*<Link to="/home" className="app-navigation__link">Strona główna</Link>*/}
+                                            {/*</li>*/}
+                                        {/*)} />*/}
 
-                                        <Route path="/stuff" children={({ match }) => (
-                                            <li className={"app-navigation__item" + (match ? " active " : "")}>
-                                                <Link to="/stuff" className="app-navigation__link">Produkty</Link>
-                                            </li>
-                                        )} />
+                                        {/*<Route path="/stuff" children={({ match }) => (*/}
+                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
+                                                {/*<Link to="/stuff" className="app-navigation__link">Produkty</Link>*/}
+                                            {/*</li>*/}
+                                        {/*)} />*/}
 
-                                        <Route path="/services" children={({ match }) => (
-                                            <li className={"app-navigation__item" + (match ? " active " : "")}>
-                                                <Link to="/services" className="app-navigation__link">Usługi</Link>
-                                            </li>
-                                        )} />
+                                        {/*<Route path="/services" children={({ match }) => (*/}
+                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
+                                                {/*<Link to="/services" className="app-navigation__link">Usługi</Link>*/}
+                                            {/*</li>*/}
+                                        {/*)} />*/}
 
-                                        <Route path="/contact" children={({ match }) => (
-                                            <li className={"app-navigation__item" + (match ? " active " : "")}>
-                                                <Link to="/contact" className="app-navigation__link">Kontakt</Link>
-                                            </li>
-                                        )} />
-                                    </ul>
-                                </nav>
+                                        {/*<Route path="/contact" children={({ match }) => (*/}
+                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
+                                                {/*<Link to="/contact" className="app-navigation__link">Kontakt</Link>*/}
+                                            {/*</li>*/}
+                                        {/*)} />*/}
+                                    {/*</ul>*/}
+                                {/*</nav>*/}
                             </div>
 
                             <div className="col-md-3 text-right">
                                 <ul className="app-languages">
-                                    <li className="app-languages__language current">
+                                    <li className="app-languages__language app-languages__language--disabled">
                                         <a href="#" className="app-languages__language-link">pl</a>
                                     </li>
-                                    <li className="app-languages__language app-languages__language--disabled">
+                                    <li className="app-languages__language || current">
                                         <a href="#" className="app-languages__language-link">en</a>
                                     </li>
                                 </ul>

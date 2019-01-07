@@ -242,8 +242,8 @@ export const Mocks = {
         ]
     },
     "component-1": {
-        "title": "Tworzymy nową <br/> <strong>rzeczywistość</strong> <br/> od podstaw",
-        "description": "Jesteśmy zespołem programistów Front End z wieloletnim doświadczeniem. Naszą misją jest wspieranie klientów w obszarze IT dostarczając przy tym oprogramowanie bardzo wysokiej jakości. Wiedzę zdobywaną przez nas latami wykorzystujemy skutecznie również w realizacji własnych pomysłów.",
+        "title": "We make a new <br/> <strong>reality</strong> <br/> from scratch",
+        "description": "Please check back soon",
         "specialWords": [
             "rzeczywistość",
             "jakość"

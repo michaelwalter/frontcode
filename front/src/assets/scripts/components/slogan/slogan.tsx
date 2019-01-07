@@ -33,8 +33,6 @@ class SloganComponent extends React.Component<ComponentProps> {
                 <div className="slogan__content">
                     <h1 className="slogan__title" dangerouslySetInnerHTML={{__html: this.props.title}}></h1>
                     <p className="slogan__text">{this.props.description}</p>
-                    <button onClick={this.props.onChangeSloganTextClick.bind(this)}>Change Word</button>
-                    {/*<Link to={this.props.url} className="slogan__button || btn btn--light btn--rounded btn--outline">Dowiedz się więcej</Link>*/}
                 </div>
             </section>
         );

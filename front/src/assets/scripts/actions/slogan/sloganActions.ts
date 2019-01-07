@@ -20,7 +20,7 @@ const fetchSloganWithRedux = (instanceId) => {
 
 const fetchSlogan = (instanceId) => {
     return new Promise( resolve => {
-        setTimeout( () => resolve({...Mocks[instanceId]}), 1000);
+        resolve({...Mocks[instanceId]});
     });
 };
 
