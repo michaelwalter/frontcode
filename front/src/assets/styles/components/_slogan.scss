@@ -1,0 +1,58 @@
+.slogan {
+  position: relative;
+  display: block;
+
+  &__title {
+    display: inline;
+    position: relative;
+    margin: 0 -.037em;
+    font-size: calculateRem(64px);
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.2em;
+
+    strong {
+      font-weight: 700;
+      color: color('SECONDARY');
+    }
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    padding: 30px 0;
+    max-width: 900px;
+    font-size: calculateRem(18px);
+    font-weight: 300;
+    line-height: 2;
+  }
+}
+
+.typed-cursor {
+  font-size: calculateRem(60px);
+  font-weight: 400;
+  color: color('SECONDARY');
+}
+
+@include media-query-max(size('LARGE')) {
+  .slogan {
+    &__title {
+      font-size: calculateRem(48px);
+    }
+    &__text {
+      font-size: calculateRem(16px);
+    }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .slogan {
+    &__title {
+      font-size: calculateRem(32px);
+    }
+    &__text {
+      font-size: calculateRem(16px);
+    }
+  }
+}

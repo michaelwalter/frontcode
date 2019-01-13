@@ -1,0 +1,39 @@
+/*
+Footer
+
+Podstawowa stopka strony
+
+Markup: ../../templates/_partials/footer.njk
+
+Style guide: partials.footer
+*/
+.app-footer {
+  position: relative;
+  font-size: calculateRem(12px);
+  z-index: 3;
+  opacity: 0;
+  animation: fadeInUp 2s .5s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
+
+  &__row {
+    position: relative;
+    padding: 60px 100px;
+  }
+}
+
+@include media-query-max(size('LARGE')) {
+  .app-footer {
+    &__row {
+      padding: 30px;
+    }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .app-footer {
+    text-align: center;
+
+    [class*='col-'] {
+      text-align: inherit;
+    }
+  }
+}

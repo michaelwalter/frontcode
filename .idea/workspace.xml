@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1075e8c6-b85c-487a-a58d-058d2f84e704" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/actions/languages/languagesActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/actions/page-content/pageContentActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/actions/responsive-menu/responsiveMenuActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/actions/site/siteActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/app-navigation/app-navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/language-selector/language-selector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/menu-button/menu-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/responsive-menu/responsive-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/reducers/languages/languagesReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/reducers/page-content/pageContentReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/reducers/responsive-menu/responsiveMenuReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/scripts/reducers/site/siteReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_menu-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_responsive-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/fonts/Frontcode-Icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/actions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/actions/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/actions/slogan/sloganActions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/app-picture/app-picture.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/app-picture/app-picture.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/app-text/app-text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/app-text/app-text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/banner/banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/banner/banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/contact-boxes/contact-boxes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/contact-boxes/contact-boxes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/custom-heading/custom-heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/custom-heading/custom-heading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/product/product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/separator/separator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/separator/separator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-footer/app-footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-footer/app-footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-header/app-header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-header/app-header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/layout-builder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/layout-builder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/reducers/slogan/sloganReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/scripts/utils/mocks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/scripts/utils/mocks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/base/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/base/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_custom-heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_custom-heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_mini-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_mini-contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_signature-area.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_signature-area.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/styles/main.scss" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_custom-heading.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_product.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inher</find>
+      <find>app-section</find>
+      <find>strong</find>
+      <find>fill=&quot;rgb(0,4,225)&quot;</find>
+      <find>coverS</find>
+      <find>rgb(0,4,225)</find>
+      <find>separato</find>
+      <find>LayoutWrapper</find>
+      <find>interface</find>
+      <find>mocks</find>
+      <find>assets</find>
+      <find>assets/</find>
+      <find>changeTitleSpecialWordReducer</find>
+      <find>changeSloganSpecialWord</find>
+      <find>fetchSlogan</find>
+      <find>fetchSloganRequest</find>
+      <find>fetchSloganWithRedux</find>
+      <find>link</find>
+      <find>SLOGAN</find>
+      <find>slogan</find>
+      <find>LANGUAGES</find>
+      <find>FETCH_LANGUAGES</find>
+      <find>actions</find>
+      <find>componentId</find>
+      <find>fetchLanguages</find>
+      <find>Link</find>
+      <find>onMounted</find>
+      <find>onToggleActiveClick</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#ffffff</replace>
+      <replace>fill=&quot;rgb(255, 255, 255)&quot;</replace>
+      <replace>rgb(255,255,255)</replace>
+      <replace>http://frontcode.pl/assets/</replace>
+      <replace>PAGE_CONTENT</replace>
+      <replace>FETCH_PAGE_CONTENT</replace>
+      <replace>fetchPageContent</replace>
+      <replace>LANGUAGES</replace>
+      <replace>id</replace>
+      <replace>F</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\user\Projects\frontcode\front\src</dir>
+      <dir>C:\Users\user\Projects\frontcode\front\src\templates</dir>
+      <dir>C:\Users\user\Projects\frontcode\front\src\assets\scripts</dir>
+      <dir>C:\Users\mpacholski\Projects\frontcode\front\src\assets</dir>
+      <dir>C:\Users\mpacholski\Projects\frontcode\front\src\assets\scripts</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/front/src/assets/styles/base/_typography.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_mini-contact.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/slogan/sloganActions.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/languages/languagesActions.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/page-content/pageContent.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/page.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/reducers/languages/languagesReducer.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/language-selector/language-selector.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/app-picture/app-picture.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/app-text/app-text.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/banner/banner.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/custom-heading/custom-heading.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/product/product.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/contact-boxes/contact-boxes.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/separator/separator.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/layout-builder.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/reducers/page-content/pageContentReducer.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/page-content/pageContentActions.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_signature-area.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_menu-button.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-footer/app-footer.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/base/_grid.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_button.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/utils/mocks.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/menu-button/menu-button.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/index.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/site/siteActions.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/reducers/site/siteReducer.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/reducers/index.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/main.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-header/app-header.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_responsive-menu.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-navigation.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/responsive-menu/responsive-menu.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/actions/responsive-menu/responsiveMenuActions.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/reducers/responsive-menu/responsiveMenuReducer.ts" />
+        <option value="$PROJECT_DIR$/front/src/assets/scripts/components/app-navigation/app-navigation.tsx" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_product.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_custom-heading.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss" />
+        <option value="$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="responsive-menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontcode" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="C:\Users\user\Projects\frontcode\front\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpacholski\Projects\frontcode\front\src\assets\scripts\actions\slogan" />
+      <recent name="C:\Users\user\Projects\frontcode\front\src\assets\scripts" />
+      <recent name="C:\Users\user\Projects\frontcode\front\src\assets\scripts\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1075e8c6-b85c-487a-a58d-058d2f84e704" name="Default Changelist" comment="" />
+      <created>1537626736857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537626736857</updated>
+      <workItem from="1537626739400" duration="13594000" />
+      <workItem from="1537731598850" duration="290000" />
+      <workItem from="1537827063905" duration="1343000" />
+      <workItem from="1538298633972" duration="655000" />
+      <workItem from="1538304319942" duration="185000" />
+      <workItem from="1538692930610" duration="37000" />
+      <workItem from="1538693038268" duration="138000" />
+      <workItem from="1540834948909" duration="7909000" />
+      <workItem from="1541442841274" duration="47000" />
+      <workItem from="1541611601976" duration="121000" />
+      <workItem from="1541611757154" duration="602000" />
+      <workItem from="1542752502404" duration="7466000" />
+      <workItem from="1543348872318" duration="6967000" />
+      <workItem from="1543605945280" duration="149000" />
+      <workItem from="1543606127653" duration="22000" />
+      <workItem from="1543958216638" duration="1361000" />
+      <workItem from="1544360053715" duration="56000" />
+      <workItem from="1544360135630" duration="22000" />
+      <workItem from="1545341738181" duration="36260000" />
+      <workItem from="1545846207222" duration="36000" />
+      <workItem from="1545846264703" duration="77906000" />
+      <workItem from="1546198279197" duration="18853000" />
+      <workItem from="1546412928387" duration="1486000" />
+      <workItem from="1546420941627" duration="1839000" />
+      <workItem from="1546450492936" duration="3813000" />
+      <workItem from="1546461057980" duration="12392000" />
+      <workItem from="1546507018509" duration="884000" />
+      <workItem from="1546514236166" duration="663000" />
+      <workItem from="1546586460469" duration="55000" />
+      <workItem from="1546780903351" duration="158000" />
+      <workItem from="1546792038939" duration="13571000" />
+      <workItem from="1546853905669" duration="38000" />
+      <workItem from="1546893339446" duration="2436000" />
+      <workItem from="1546897693342" duration="663000" />
+      <workItem from="1546898990871" duration="74000" />
+      <workItem from="1547063902426" duration="39020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="251356000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.24253732" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/front/gulpfile.js" />
+      </list>
+    </option>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_app-languages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/reducers/slogan/sloganReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="9" selection-start-line="40" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/components.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-text/app-text.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/banner/banner.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/custom-heading/custom-heading.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/product/product.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-picture/app-picture.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/separator/separator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/contact-boxes/contact-boxes.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_signature-area.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-footer/app-footer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_menu-button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_slogan.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_app-logo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/actions/languages/languagesActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="38" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/reducers/languages/languagesReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/slogan/slogan.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/actions/slogan/sloganActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/language-selector/language-selector.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/actions/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/utils/mocks.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#127#133#1" expanded="true" />
+            <element signature="e#170#176#1" expanded="true" />
+            <element signature="e#117#123#1" expanded="true" />
+            <element signature="e#268#274#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/reducers/page-content/pageContentReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/actions/page-content/pageContentActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/actions/site/siteActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/reducers/site/siteReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/reducers/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/fonts/FrontcodeIcons/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/layouts/default/layout-builder.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/layouts/default/app-header/app-header.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_app-navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_responsive-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/scripts.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/app-navigation/app-navigation.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/reducers/responsive-menu/responsiveMenuReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/actions/responsive-menu/responsiveMenuActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/responsive-menu/responsive-menu.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/components/menu-button/menu-button.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="34" column="5" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/scripts/layouts/default/page.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#115#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/abstracts/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/base/_helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_app-picture.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_custom-heading.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/styles/components/_contact-boxes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

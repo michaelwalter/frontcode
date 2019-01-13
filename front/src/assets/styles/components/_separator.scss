@@ -1,0 +1,56 @@
+.separator {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+
+  hr {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    color: color('SECONDARY');
+    background: currentColor;
+    border: none;
+  }
+
+  &--transparent {
+    hr {
+      color: transparent;
+    }
+  }
+
+  &--x-small {
+    height: 30px;
+    line-height: 30px;
+  }
+
+  &--small {
+    height: 40px;
+    line-height: 40px;
+  }
+
+  &--x-large {
+    height: 90px;
+    line-height: 90px;
+  }
+
+  &--large {
+    height: 120px;
+    line-height: 120px;
+  }
+
+  &--short {
+    hr {
+      max-width: 200px;
+    }
+  }
+
+  &--grey {
+    hr {
+      color: color('SIXTH');
+    }
+  }
+}
