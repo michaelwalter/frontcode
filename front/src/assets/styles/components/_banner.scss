@@ -6,6 +6,7 @@
   &__title {
     font-size: calculateRem(28px);
     font-weight: 600;
+    line-height: 1.4em;
     letter-spacing: .05em;
   }
 
@@ -28,5 +29,15 @@
 
   &--default {
     background: rgba(71, 161, 239, 0.5);
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .banner {
+    padding: 20px;
+
+    &__title {
+      font-size: calculateRem(22px);
+    }
   }
 }

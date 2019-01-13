@@ -1,5 +1,8 @@
 import * as React from "react";
 import {Route, Link} from "react-router-dom";
+import {Languages} from "../../../components/language-selector/language-selector";
+import {MenuButton} from "../../../components/menu-button/menu-button";
+import {AppNavigation} from "../../../components/app-navigation/app-navigation";
 
 export class AppHeader extends React.Component {
     render(): JSX.Element {
@@ -17,45 +20,16 @@ export class AppHeader extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 text-center">
-                                {/*<nav className="app-navigation app-navigation--base">*/}
-                                    {/*<ul className="app-navigation__list">*/}
-                                        {/*<Route path="/home" children={({ match }) => (*/}
-                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
-                                                {/*<Link to="/home" className="app-navigation__link">Strona główna</Link>*/}
-                                            {/*</li>*/}
-                                        {/*)} />*/}
-
-                                        {/*<Route path="/stuff" children={({ match }) => (*/}
-                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
-                                                {/*<Link to="/stuff" className="app-navigation__link">Produkty</Link>*/}
-                                            {/*</li>*/}
-                                        {/*)} />*/}
-
-                                        {/*<Route path="/services" children={({ match }) => (*/}
-                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
-                                                {/*<Link to="/services" className="app-navigation__link">Usługi</Link>*/}
-                                            {/*</li>*/}
-                                        {/*)} />*/}
-
-                                        {/*<Route path="/contact" children={({ match }) => (*/}
-                                            {/*<li className={"app-navigation__item" + (match ? " active " : "")}>*/}
-                                                {/*<Link to="/contact" className="app-navigation__link">Kontakt</Link>*/}
-                                            {/*</li>*/}
-                                        {/*)} />*/}
-                                    {/*</ul>*/}
-                                {/*</nav>*/}
+                            <div className="col-md-6 text-center h-hidden--mobile h-hidden--tablet">
+                                <AppNavigation modifiers="app-navigation--base" />
                             </div>
 
-                            <div className="col-md-3 text-right">
-                                <ul className="app-languages">
-                                    <li className="app-languages__language app-languages__language--disabled">
-                                        <a href="#" className="app-languages__language-link">pl</a>
-                                    </li>
-                                    <li className="app-languages__language || current">
-                                        <a href="#" className="app-languages__language-link">en</a>
-                                    </li>
-                                </ul>
+                            <div className="col-md-3 text-right h-hidden--mobile h-hidden--tablet">
+                                <Languages />
+                            </div>
+
+                            <div className="col-md-9 text-right h-hidden--desktop">
+                                <MenuButton />
                             </div>
                         </div>
                     </div>

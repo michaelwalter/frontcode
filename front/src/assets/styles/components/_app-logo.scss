@@ -12,3 +12,9 @@
     max-width: 100%;
   }
 }
+
+@include media-query-max(size('SMALL')) {
+  .app-logo {
+    width: 100px;
+  }
+}

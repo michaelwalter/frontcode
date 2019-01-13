@@ -1,8 +1,10 @@
 .signature-area {
   i {
+    position: relative;
     display: inline-block;
     vertical-align: baseline;
-    font-size: .75em;
-    color: color('SECONDARY');
+    top: .08em;
+    font-size: 1.2em;
+    color: #00ceff;
   }
 }

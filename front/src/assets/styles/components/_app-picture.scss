@@ -16,3 +16,11 @@
     }
   }
 }
+
+@include media-query-max(size('LARGE')) {
+  .app-picture {
+    &--wide {
+      border: none;
+    }
+  }
+}

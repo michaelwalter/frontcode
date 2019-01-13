@@ -23,7 +23,7 @@
     margin: 15px auto;
     padding: 30px 0;
     max-width: 900px;
-    font-size: calculateRem(28px);
+    font-size: calculateRem(18px);
     font-weight: 300;
     line-height: 2;
   }
@@ -33,4 +33,26 @@
   font-size: calculateRem(60px);
   font-weight: 400;
   color: color('SECONDARY');
+}
+
+@include media-query-max(size('LARGE')) {
+  .slogan {
+    &__title {
+      font-size: calculateRem(48px);
+    }
+    &__text {
+      font-size: calculateRem(16px);
+    }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .slogan {
+    &__title {
+      font-size: calculateRem(32px);
+    }
+    &__text {
+      font-size: calculateRem(16px);
+    }
+  }
 }

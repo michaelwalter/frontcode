@@ -3,8 +3,6 @@
   display: block;
   margin: 15px 0;
 
-
-
   &__title {
     position: relative;
     display: block;
@@ -26,5 +24,37 @@
     display: block;
     margin-top: 15px;
     font-size: calculateRem(20px);
+  }
+}
+
+@include media-query-max(1300px) {
+  .custom-heading {
+    &__title {
+      padding-top: 30px;
+      &::before {
+        display: none;
+      }
+      //&::before {
+      //  position: static;
+      //  display: inline-block;
+      //  vertical-align: baseline;
+      //  margin-right: 10px;
+      //}
+    }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .custom-heading {
+    &__title {
+      font-size: calculateRem(24px);
+      line-height: 1.4em;
+      &::before {
+        display: none;
+      }
+    }
+    &__subtitle {
+      font-size: calculateRem(18px);
+    }
   }
 }

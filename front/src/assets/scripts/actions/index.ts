@@ -1,8 +1,20 @@
-import {asyncActions, changeSloganSpecialWord} from "./slogan/sloganActions";
+import {asyncLanguagesActions, changeLanguage} from "./languages/languagesActions";
+import {asyncPageContentActions} from "./page-content/pageContentActions";
+import {toggleOpen} from "./responsive-menu/responsiveMenuActions";
+import {changePage} from "./site/siteActions";
 
 export const actions = {
-    slogan: {
-        "asyncActions":  asyncActions,
-        "changeSloganSpecialWord": changeSloganSpecialWord
+    languages: {
+        "asyncActions":  asyncLanguagesActions,
+        'changeLanguage': changeLanguage
+    },
+    pageContent: {
+        "asyncActions": asyncPageContentActions
+    },
+    responsiveMenu: {
+        'toggleOpen': toggleOpen
+    },
+    site: {
+        'changePage': changePage
     }
 };

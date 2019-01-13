@@ -19,3 +19,21 @@ Style guide: partials.footer
     padding: 60px 100px;
   }
 }
+
+@include media-query-max(size('LARGE')) {
+  .app-footer {
+    &__row {
+      padding: 30px;
+    }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .app-footer {
+    text-align: center;
+
+    [class*='col-'] {
+      text-align: inherit;
+    }
+  }
+}

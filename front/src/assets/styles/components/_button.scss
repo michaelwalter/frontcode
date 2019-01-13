@@ -45,7 +45,6 @@ Style guide: components.button
       &:hover, &.h-hover {
         color: $buttonColor;
         background-color: $hoverBackground;
-        //box-shadow: none;
       }
     }
   }
@@ -125,8 +124,7 @@ Style guide: components.button
 
 @include media-query-max(size('LARGE')) {
   .btn {
-    padding: 12px 15px;
-    font-size: calculateRem(12px);
+    padding: 15px 15px 12px 15px;
   }
 }
 

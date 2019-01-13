@@ -1,6 +1,12 @@
 import { combineReducers } from "redux";
-import { sloganReducer } from "./slogan/sloganReducer";
+import { languagesReducer } from "./languages/languagesReducer";
+import { pageContentReducer } from "./page-content/pageContentReducer";
+import { responsiveMenuReducer } from "./responsive-menu/responsiveMenuReducer";
+import {siteReducer} from "./site/siteReducer";
 
 export default combineReducers({
-    slogan: sloganReducer
+    languages: languagesReducer,
+    pageContent: pageContentReducer,
+    responsiveMenu: responsiveMenuReducer,
+    site: siteReducer
 });

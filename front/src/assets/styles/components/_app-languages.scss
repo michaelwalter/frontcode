@@ -31,6 +31,12 @@ $component: '.app-languages';
       }
     }
 
+    &:not(.current) {
+      #{$component}__language-link {
+        cursor: pointer;
+      }
+    }
+
     &--disabled {
       pointer-events: none;
       opacity: .5;
@@ -46,6 +52,8 @@ $component: '.app-languages';
     line-height: 30px;
     letter-spacing: 1px;
     color: inherit;
+    background: transparent;
+    border: none;
     border-radius: 50%;
     overflow: hidden;
     transition: all 100ms linear;

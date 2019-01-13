@@ -61,9 +61,9 @@ class AppColumn extends React.Component {
             <div className={"col-md-" + this.props['size'] + " " + this.props['modifiers']}>
                 <div className="col-content">
                     {this.props['components'].map(component => {
-                        const ComponentName = Components[component['name']];
+                        const ComponentName = Components[component['componentType']];
                         if (ComponentName) {
-                            return ( <ComponentName instanceId={component.id} key={component.id} /> )
+                            return ( <ComponentName {...component} key={component.id} /> )
                         }
                     })}
                 </div>

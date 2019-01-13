@@ -31,3 +31,14 @@
   padding: 30px 40px;
   background: rgba(#000, .5);
 }
+
+@include media-query-max(size('X-MEDIUM')) {
+  .contact-boxes {
+    &__list {
+      flex-wrap: wrap;
+    }
+    &__item {
+      width: 100%;
+    }
+  }
+}

@@ -90,3 +90,56 @@ $component: '.product';
     }
   }
 }
+
+@include media-query-max(size('LARGE')) {
+  .product {
+    margin-top: 0;
+
+    &__content {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    &__logo, &__text {
+      flex: 1;
+    }
+
+    &__logo {
+      flex: 40%;
+      width: auto;
+      height: auto;
+      padding: 30px;
+    }
+
+    &__text {
+      flex: 60%;
+      margin-top: 0;
+    }
+
+    &__name {
+      padding: 30px;
+    }
+
+    &__description {
+      width: 100%;
+      padding: 30px;
+      left: 0 !important;
+      right: 0 !important;
+    }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .product {
+    &__content {
+      display: block;
+    }
+
+    &__logo, &__text {
+      display: block;
+      width: 100%;
+    }
+  }
+}

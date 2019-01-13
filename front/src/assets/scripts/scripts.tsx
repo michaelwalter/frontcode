@@ -8,6 +8,7 @@ import { Provider } from "react-redux";
 import {AppHeader} from "./layouts/default/app-header/app-header";
 import {AppFooter} from "./layouts/default/app-footer/app-footer";
 import {Page} from "./layouts/default/page";
+import {ResponsiveMenu} from "./components/responsive-menu/responsive-menu";
 
 const container = document.getElementById("app");
 
@@ -21,6 +22,7 @@ export class App extends React.Component {
             <BrowserRouter>
                 <div className="app-wrapper">
                     <AppHeader />
+                    <ResponsiveMenu />
                     <main className="app-main">
                         <Route exact path="/" render={() => <Redirect to="/home" />} />
                         <Route path="/home" render={() => <Page id={"page-0"} />} />
