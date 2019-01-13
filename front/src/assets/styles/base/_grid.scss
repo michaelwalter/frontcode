@@ -26,12 +26,6 @@ $half-gutter-width: $gutter-width * .5;
   margin: 0 auto;
 }
 
-.container {
-  > .row {
-    background: inherit;
-  }
-}
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -58,6 +52,7 @@ $half-gutter-width: $gutter-width * .5;
     position: relative;
     padding: $half-gutter-width;
     background-size: cover;
+    flex: 1;
   }
 }
 
@@ -226,5 +221,11 @@ $name: xs;
     .last-#{$name} {
       order: 1;
     }
+  }
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .row {
+    display: block;
   }
 }

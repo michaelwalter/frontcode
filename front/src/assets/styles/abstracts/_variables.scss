@@ -15,8 +15,8 @@ $base-url: '/assets/' !default;
 //
 // Style guide variables.fonts
 $FONTS: (
-        'BODY': ('Lato', sans-serif),
-        'HEADING': ('Lato', sans-serif)
+        'BODY': ('Montserrat', sans-serif),
+        'HEADING': ('Montserrat', sans-serif)
 ) !default;
 
 // Colors
@@ -25,11 +25,12 @@ $FONTS: (
 //
 // Style guide variables.colors
 $COLORS: (
-        'PRIMARY': #cc0033,
-        'SECONDARY': #e40039,
-        'THIRD': #000000,
-        'FOURTH': #575757,
-        'FIFTH': #b1b1b1,
+        //'PRIMARY': #00009f,
+        'PRIMARY': #1d1dc5,
+        'SECONDARY': #ff0077,
+        'THIRD': #2e71d6,
+        'FOURTH': #4d4d4d,
+        'FIFTH': #d4d4d4,
         'SIXTH': #ececec,
         'SEVENTH': #f5f5f5,
         'INFO': #08acda,
@@ -45,7 +46,7 @@ $COLORS: (
 //
 // Style guide variables.sizes
 $SIZES: (
-        'HUGE': 1366px,
+        'HUGE': 1200px,
         'LARGE': 1024px,
         'MEDIUM': 768px,
         'X-MEDIUM': 480px,

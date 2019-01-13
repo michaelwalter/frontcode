@@ -1,0 +1,46 @@
+.menu-button {
+  display: inline-block;
+  vertical-align: middle;
+
+  &__hamburger {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    text-align: right;
+    color: #ffffff;
+    line-height: 16px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      float: right;
+      background: currentColor;
+    }
+  }
+}

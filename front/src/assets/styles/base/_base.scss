@@ -21,20 +21,6 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Basic styles for links
- */
-a {
-  color: inherit;
-  text-decoration: none;
-
-  @include on-event {
-    &:not(.h-no-hover) {
-      text-decoration: none;
-    }
-  }
-}
-
 img {
   display: block;
   max-width: 100%;

@@ -1,0 +1,14 @@
+.mini-contact {
+  display: inline-block;
+  margin: -5px;
+
+  &__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+  }
+
+  a:hover {
+    color: lighten(color('PRIMARY'), 40%);
+  }
+}

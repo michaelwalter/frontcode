@@ -1,0 +1,20 @@
+.app-logo {
+  display: block;
+  width: 140px;
+
+  &__link {
+    display: block;
+    width: 100%;
+  }
+
+  &__picture {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@include media-query-max(size('SMALL')) {
+  .app-logo {
+    width: 100px;
+  }
+}

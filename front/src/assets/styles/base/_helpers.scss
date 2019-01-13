@@ -22,10 +22,9 @@
   max-width: size('HUGE'); /* 1 */
   margin-left: auto; /* 2 */
   margin-right: auto; /* 2 */
-  padding-left: 13px; /* 3 */
-  padding-right: 13px; /* 3 */
+  padding-left: 30px; /* 3 */
+  padding-right: 30px; /* 3 */
   width: 100%; /* 1 */
-  background: inherit;
  }
 
 /**
@@ -85,6 +84,10 @@
   &--primary {
     color: color('PRIMARY');
   }
+
+  &--secondary {
+    color: color('SECONDARY');
+  }
 }
 
 .h-uppercase {
@@ -95,35 +98,29 @@
   display: none !important;
 }
 
-.h-hidden--mobile {
-  display: block;
-}
-
-.h-hidden--tablet {
-  display: block;
-}
-
-.h-hidden--desktop {
-  display: none;
-}
-
-.h-show--mobile {
-  display: none;
-}
-
-.h-show--tablet {
-  display: none;
-}
-
-.h-show--desktop {
-  display: block;
-}
-
 .h-no-hover {
   color: initial;
   background: initial;
   border: initial;
   cursor: default;
+}
+
+@include media-query-max(size('X-MEDIUM')) {
+  .h-hidden--mobile {
+    display: none !important;
+  }
+}
+
+@include media-query-max-min(size('LARGE'), size('X-MEDIUM')) {
+  .h-hidden--tablet {
+    display: none !important;
+  }
+}
+
+@include media-query-min(size('LARGE')) {
+  .h-hidden--desktop {
+    display: none !important;
+  }
 }
 
 /**

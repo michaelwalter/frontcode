@@ -1,0 +1,61 @@
+$component: '.app-languages';
+.app-languages {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &__language {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+    text-align: center;
+
+    &:not(:first-child)::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -1px;
+      margin: auto;
+      width: 2px;
+      height: 20px;
+      background: color('FIFTH');
+      transform: rotate(15deg);
+    }
+
+    &.current, &:hover {
+      #{$component}__language-link {
+        background: color('SECONDARY');
+      }
+    }
+
+    &:not(.current) {
+      #{$component}__language-link {
+        cursor: pointer;
+      }
+    }
+
+    &--disabled {
+      pointer-events: none;
+      opacity: .5;
+    }
+  }
+
+  &__language-link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: calculateRem(12px);
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: inherit;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 100ms linear;
+  }
+}

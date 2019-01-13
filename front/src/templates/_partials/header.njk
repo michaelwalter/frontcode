@@ -1,19 +1,43 @@
 <header class="app-header">
     <div class="app-header__content">
         <div class="app-header__row">
-            <div class="container">
-                <div class="row middle-xs">
-                    <div class="col-md-6">
-                        <div class="app-logo">
-                            <a href="/">
-                                <span>LOGO</span>
-                            </a>
-                        </div>
+            <div class="row middle-xs">
+                <div class="col-md-3">
+                    <div class="app-logo">
+                        <a href="/" class="app-logo__link">
+                            <img src="assets/images/frontcode-light.svg" class="app-logo__picture" alt="frontcode">
+                        </a>
                     </div>
+                </div>
 
-                    <div class="col-md-6 text-right">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                <div class="col-md-6 text-center">
+                    <nav class="app-navigation app-navigation--base">
+                        <ul class="app-navigation__list">
+                            <li class="app-navigation__item {{ 'active' if page == 'HOME' }}">
+                                <a href="home.html" class="app-navigation__link">Strona główna</a>
+                            </li>
+                            <li class="app-navigation__item {{ 'active' if page == 'STUFF' }}">
+                                <a href="stuff.html" class="app-navigation__link">Produkty</a>
+                            </li>
+                            <li class="app-navigation__item {{ 'active' if page == 'SERVICES' }}">
+                                <a href="services.html" class="app-navigation__link">Usługi</a>
+                            </li>
+                            <li class="app-navigation__item {{ 'active' if page == 'CONTACT' }}">
+                                <a href="contact.html" class="app-navigation__link">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3 text-right">
+                    <ul class="app-languages">
+                        <li class="app-languages__language current">
+                            <a href="#" class="app-languages__language-link">pl</a>
+                        </li>
+                        <li class="app-languages__language">
+                            <a href="#" class="app-languages__language-link">en</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
