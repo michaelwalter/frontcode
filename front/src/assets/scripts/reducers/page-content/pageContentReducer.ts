@@ -6,7 +6,7 @@ import {
 
 const initialInstance = {
     sections: [],
-    id: 'page-0'
+    routeId: 'page-0'
 };
 
 export const pageContentReducer = (state = initialInstance, action) => {

@@ -4,10 +4,10 @@ export const FETCH_PAGE_CONTENT_REQUEST = 'FETCH_PAGE_CONTENT_REQUEST';
 export const FETCH_PAGE_CONTENT_SUCCESS = 'FETCH_PAGE_CONTENT_SUCCESS';
 export const FETCH_PAGE_CONTENT_ERROR = 'FETCH_PAGE_CONTENT_ERROR';
 
-const fetchPageContentWithRedux = (pageId) => {
+const fetchPageContentWithRedux = (routeId) => {
     return dispatch => {
         dispatch(fetchPageContentRequest());
-        return fetchPageContent(pageId)
+        return fetchPageContent(routeId)
             .then(json => {
                 setTimeout(() => {
                     dispatch(fetchPageContentSuccess(json));
@@ -19,9 +19,9 @@ const fetchPageContentWithRedux = (pageId) => {
     };
 };
 
-const fetchPageContent = (pageId) => {
+const fetchPageContent = (routeId) => {
     return new Promise( resolve => {
-        resolve({...Mocks[pageId]});
+        resolve({...Mocks[routeId]});
     });
 };
 

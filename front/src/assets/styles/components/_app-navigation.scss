@@ -30,6 +30,8 @@ $component: '.app-navigation';
     letter-spacing: 1px;
     color: inherit;
     line-height: 1;
+    background: transparent;
+    border: none;
     &::after {
       content: "";
       position: absolute;

@@ -8,7 +8,7 @@ export class AppFooter extends React.Component {
                     <div className="row middle-sm">
                         <div className="col-sm-4">
                             <div className="signature-area">
-                                <p>Made with <i className="f-icon--react" title="React JS" /> in Sopot, Poland</p>
+                                <p>Made with <i className="f-icon--react" title="React JS" /> in Gdańsk, Poland</p>
                             </div>
                         </div>
                         <div className="col-sm-4 text-center">

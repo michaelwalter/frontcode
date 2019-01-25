@@ -35,6 +35,26 @@
   }
 }
 
+.app-overlay {
+  z-index: 10;
+}
+.shape-overlays {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  &.is-open {
+    display: block;
+  }
+}
+
+.shape-overlays path:nth-of-type(1) { fill: darken(color('PRIMARY'), 15%); }
+.shape-overlays path:nth-of-type(2) { fill: #1818A4; }
+.shape-overlays path:nth-of-type(3) { fill: #3b3bc5; }
+
 .app-main {
   display: flex;
   flex-direction: column;
@@ -43,6 +63,19 @@
   z-index: 2;
   opacity: 0;
   animation: fadeInDown 2s 1s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
+
+  //&.loading {
+  //  opacity: 0;
+  //}
+  //
+  //&.loaded {
+  //  opacity: 0;
+  //  animation: fadeInDown 500ms 0s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
+  //}
+  //
+  //&.out {
+  //    animation: fadeOutUp 500ms 0s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
+  //}
 }
 
 .app-route, .app-main > div {

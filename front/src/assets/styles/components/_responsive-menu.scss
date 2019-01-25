@@ -21,6 +21,7 @@
   &__close {
     display: inline-block;
     margin: 0;
+    padding: 0;
     width: 30px;
     height: 30px;
     font-size: calculateRem(12px);
@@ -30,6 +31,11 @@
     background: transparent;
     border: 2px currentColor solid;
     border-radius: 50%;
+
+    i {
+      display: block;
+      line-height: 1;
+    }
   }
 
   &__content {

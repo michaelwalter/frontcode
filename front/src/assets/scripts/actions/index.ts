@@ -1,7 +1,7 @@
 import {asyncLanguagesActions, changeLanguage} from "./languages/languagesActions";
 import {asyncPageContentActions} from "./page-content/pageContentActions";
 import {toggleOpen} from "./responsive-menu/responsiveMenuActions";
-import {changePage} from "./site/siteActions";
+import {changeRoute} from "./site/siteActions";
 
 export const actions = {
     languages: {
@@ -15,6 +15,6 @@ export const actions = {
         'toggleOpen': toggleOpen
     },
     site: {
-        'changePage': changePage
+        'changeRoute': changeRoute
     }
 };

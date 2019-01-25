@@ -1,47 +1,45 @@
 import {
-    CHANGE_SITE_PAGE
+    CHANGE_SITE_ROUTE
 } from "../../actions/site/siteActions";
-import {type} from "os";
 
 const initialInstance = {
-    "pages": {
+    "routes": {
         "list": [
             {
-                "id": "0",
+                "id": "page-0",
                 "name": "Strona główna",
-                "url": "/home"
+                "value": "/home"
             },
             {
-                "id": "1",
+                "id": "page-1",
                 "name": "Produkty",
-                "url": "/stuff"
+                "value": "/stuff"
             },
             {
-                "id": "2",
+                "id": "page-2",
                 "name": "Usługi",
-                "url": "/services"
+                "value": "/services"
             },
             {
-                "id": "3",
+                "id": "page-3",
                 "name": "Kontakt",
-                "url": "/contact"
+                "value": "/contact"
             }
         ],
-        "active": "0"
+        "active": "/home"
     }
-};
-
-const newPayloadwithActivePage = (newState, pageId) => {
-    if (typeof newState['pages'] !== 'undefined') {
-        newState['pages']['active'] = pageId;
-    }
-    return newState;
 };
 
 export const siteReducer = (state = initialInstance, action) => {
     switch (action.type) {
-        case CHANGE_SITE_PAGE: {
-            return newPayloadwithActivePage({...state}, action.payload.active);
+        case CHANGE_SITE_ROUTE: {
+            return {
+                ...state,
+                routes: {
+                    ...state.routes,
+                    active: action.payload.active
+                }
+            }
         }
         default: {
             return state;

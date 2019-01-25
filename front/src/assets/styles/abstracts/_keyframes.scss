@@ -34,6 +34,17 @@
   }
 }
 
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 25px, 0);
+  }
+}
+
 @keyframes spin {
   0% {
     opacity: 0;

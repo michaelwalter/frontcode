@@ -1,15 +1,16 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import { Route, Link } from "react-router-dom";
+import { Route, Link, withRouter } from "react-router-dom";
 import {actions} from "../../actions";
 
 interface ComponentProps {
     modifiers: string,
-    pages: {
+    routes: {
         list: Array<any>,
         active: string
     },
-    onChangePageClick: any
+    location: any,
+    history: any
 }
 
 /**
@@ -17,12 +18,8 @@ interface ComponentProps {
  *
  */
 class AppNavigationContainer extends React.Component<ComponentProps> {
-    onChangePageClick (pageId) {
-        this.props.onChangePageClick(pageId);
-    }
-
     render () {
-        return <AppNavigationComponent modifiers={this.props.modifiers || ''} pages={this.props.pages.list} active={this.props.pages.active} onChangePageClick={this.onChangePageClick.bind(this)} />
+        return <AppNavigationComponent modifiers={this.props.modifiers || ''} routes={this.props.routes} />
     }
 }
 
@@ -33,18 +30,13 @@ class AppNavigationContainer extends React.Component<ComponentProps> {
  * @constructor
  */
 const AppNavigationComponent = props => {
-    const toggleActiveClass = (pageId) => {
-        return pageId === props.active ? ' active ' : '';
+    const toggleActiveClass = (routeValue) => {
+        return routeValue === props.routes.active ? ' active ' : '';
     };
 
-    const onChangePageClick = pageId => {
-        return event => {
-            props.onChangePageClick(pageId);
-        }
-    };
-    const navigationItems = props.pages.map((page, index) => (
-        <li className={"app-navigation__item" + toggleActiveClass(page.id)} onClick={onChangePageClick(page.id)} key={index}>
-            <Link to={page.url} className="app-navigation__link">{page.name}</Link>
+    const navigationItems = props.routes.list.map((route, index) => (
+        <li className={"app-navigation__item" + toggleActiveClass(route.value)} key={index}>
+            <Link to={route.value} className="app-navigation__link">{route.name}</Link>
         </li>
     ));
     return (
@@ -67,16 +59,6 @@ const mapStateToProps = (state, ownProps) => {
     }
 };
 
-const mapDispatchToProps = (dispatch, ownProps) => {
-    return {
-        onChangePageClick: (pageId) => {
-            dispatch(actions.site.changePage(pageId));
-            dispatch(actions.responsiveMenu.toggleOpen('close'))
-        }
-    }
-};
-
 export const AppNavigation = connect(
-    mapStateToProps,
-    mapDispatchToProps
+    mapStateToProps
 )(AppNavigationContainer);

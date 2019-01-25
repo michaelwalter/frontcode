@@ -1,4 +1,5 @@
 import * as React from "react";
+import {Link} from "react-router-dom";
 
 interface ComponentProps {
     id: string
@@ -17,9 +18,9 @@ export class Banner extends React.Component<ComponentProps, {}> {
                     <p className="banner__title">Rozwijamy sukcesywnie własne produkty</p>
                     <p className="banner__subtitle">Jeżeli jesteś otwarty na współpracę z nami w tym zakresie, zadzwoń
                         lub napisz.</p>
-                    <button className="banner__button || btn btn--light btn--rounded">Dowiedz się więcej o naszych
+                    <Link to={'/stuff'} className="banner__button || btn btn--light btn--rounded">Dowiedz się więcej o naszych
                         produktach
-                    </button>
+                    </Link>
                 </div>
             </section>
         );

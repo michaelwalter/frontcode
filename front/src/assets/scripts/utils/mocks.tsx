@@ -2,30 +2,30 @@ export const Mocks = {
     "information": {
         "title": "Frontcode - we make a new reality from scratch"
     },
-    "pages": {
+    "routes": {
         "list": [
             {
-                "id": "0",
+                "id": "page-0",
                 "name": "Strona główna",
-                "url": "/home"
+                "value": "/home"
             },
             {
-                "id": "1",
+                "id": "page-1",
                 "name": "Produkty",
-                "url": "/stuff"
+                "value": "/stuff"
             },
             {
-                "id": "2",
+                "id": "page-2",
                 "name": "Usługi",
-                "url": "/services"
+                "value": "/services"
             },
             {
-                "id": "3",
+                "id": "page-3",
                 "name": "Kontakt",
-                "url": "/contact"
+                "value": "/contact"
             }
         ],
-        "active": "0"
+        "active": "/home"
     },
     "languages": {
         "languages": [
@@ -45,7 +45,7 @@ export const Mocks = {
         "active": "0"
     },
     "page-0": {
-        "id": "page-0",
+        "routeId": "page-0",
         "sections": [
             {
                 "id": "section-1",
@@ -84,7 +84,7 @@ export const Mocks = {
         ]
     },
     "page-1": {
-        "id": "page-1",
+        "routeId": "page-1",
         "sections": [
             {
                 "id": "section-1",
@@ -168,7 +168,7 @@ export const Mocks = {
         ]
     },
     "page-2": {
-        "id": "page-2",
+        "routeId": "page-2",
         "sections": [
             {
                 "id": "section-1",
@@ -297,8 +297,8 @@ export const Mocks = {
             }
         ]
     },
-    "id": "page-3",
     "page-3": {
+        "routeId": "page-3",
         "sections": [
             {
                 "id": "section-1",
