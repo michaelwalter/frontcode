@@ -27,6 +27,7 @@ $component: '.app-languages';
 
     &.current, &:hover {
       #{$component}__language-link {
+        color: #ffffff;
         background: color('SECONDARY');
       }
     }
@@ -49,7 +50,7 @@ $component: '.app-languages';
     height: 30px;
     font-size: calculateRem(12px);
     font-weight: 600;
-    line-height: 30px;
+    line-height: 28px;
     letter-spacing: 1px;
     color: inherit;
     background: transparent;

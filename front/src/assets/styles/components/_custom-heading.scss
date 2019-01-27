@@ -2,28 +2,30 @@
   position: relative;
   display: block;
   margin: 15px 0;
+  padding-bottom: 20px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background: color('SECONDARY');
+  }
 
   &__title {
     position: relative;
     display: block;
-    font-weight: 600;
-
-    &::before {
-      content: "";
-      position: absolute;
-      right: 100%;
-      bottom: .28em;
-      width: .71em;
-      height: .25em;
-      margin-right: 25px;
-      background: color('SECONDARY');
-    }
+    font-size: calculateRem(36px);
+    font-weight: 700;
   }
 
   &__subtitle {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: calculateRem(20px);
+    color: inherit;
   }
 }
 

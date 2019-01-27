@@ -30,7 +30,7 @@ const SloganComponent = props => {
             <div className="slogan__content">
                 <h1 className="slogan__title" dangerouslySetInnerHTML={{__html: props.title}}></h1>
                 <p className="slogan__text">{props.description}</p>
-                <Link to={props.url} className="btn btn--light btn--rounded">Dowiedz się więcej</Link>
+                <Link to={props.url} className="btn btn--primary btn--rounded">Dowiedz się więcej</Link>
             </div>
         </section>
     )

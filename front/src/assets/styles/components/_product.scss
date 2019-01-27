@@ -14,7 +14,7 @@ $component: '.product';
     line-height: 1;
   }
 
-  &__content {
+  &__header {
     display: flex;
   }
 
@@ -25,8 +25,8 @@ $component: '.product';
     justify-content: center;
     align-items: center;
     flex: 1 0 auto;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     background: darken(color('PRIMARY'), 30%);
     z-index: 1;
@@ -41,10 +41,6 @@ $component: '.product';
     }
   }
 
-  &__text {
-    margin-top: 75px;
-  }
-
   &__name {
     display: block;
     padding: 40px 60px;
@@ -55,10 +51,10 @@ $component: '.product';
   &__description {
     position: relative;
     display: block;
-    width: 90%;
-    padding: 40px;
-    left: -150px;
-    background: darken(color('PRIMARY'), 25%);
+    width: 100%;
+    padding: 60px;
+    color: #ffffff;
+    background: darken(color('PRIMARY'), 0%);
     z-index: 2;
   }
 

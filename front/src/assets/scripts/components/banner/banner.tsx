@@ -18,7 +18,7 @@ export class Banner extends React.Component<ComponentProps, {}> {
                     <p className="banner__title">Rozwijamy sukcesywnie własne produkty</p>
                     <p className="banner__subtitle">Jeżeli jesteś otwarty na współpracę z nami w tym zakresie, zadzwoń
                         lub napisz.</p>
-                    <Link to={'/stuff'} className="banner__button || btn btn--light btn--rounded">Dowiedz się więcej o naszych
+                    <Link to={'/stuff'} className="banner__button || btn btn--secondary btn--rounded">Dowiedz się więcej o naszych
                         produktach
                     </Link>
                 </div>

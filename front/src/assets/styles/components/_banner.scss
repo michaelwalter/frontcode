@@ -28,7 +28,8 @@
   }
 
   &--default {
-    background: rgba(71, 161, 239, 0.5);
+    color: #ffffff;
+    background: color('PRIMARY');
   }
 }
 

@@ -9,14 +9,16 @@ Style guide: partials.footer
 */
 .app-footer {
   position: relative;
-  font-size: calculateRem(12px);
+  font-size: calculateRem(11px);
+  font-weight: 500;
+  color: color('PRIMARY');
   z-index: 3;
   opacity: 0;
   animation: fadeInUp 2s .5s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
 
   &__row {
     position: relative;
-    padding: 60px 100px;
+    padding: 30px 40px;
   }
 }
 

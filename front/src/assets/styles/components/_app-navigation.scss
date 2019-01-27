@@ -23,8 +23,8 @@ $component: '.app-navigation';
   &__link {
     position: relative;
     display: block;
-    padding: 10px 0;
-    font-size: calculateRem(12px);
+    padding: 35px 0;
+    font-size: calculateRem(11px);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -35,10 +35,10 @@ $component: '.app-navigation';
     &::after {
       content: "";
       position: absolute;
-      bottom: 0;
+      top: 0;
       left: 0;
       width: 0;
-      height: 3px;
+      height: 4px;
       background: color('SECONDARY');
       transition: 75ms width ease-in-out;
     }

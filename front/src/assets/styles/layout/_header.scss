@@ -1,20 +1,15 @@
-/*
-Header
-
-Podstawowy nagłówek strony
-
-Markup: ../../templates/_partials/app-header.njk
-
-Style guide: partials.app-header
-*/
 .app-header {
   position: relative;
+  color: #ffffff;
   z-index: 10;
   opacity: 0;
+  border-bottom: 20px color('SEVENTH') solid;
   animation: fadeInDown 2s .5s cubic-bezier(0.18, 0.98, 0.45, 1) forwards;
+  overflow: hidden;
 
   &__row {
-    padding: 60px 100px;
+    padding: 0 40px;
+    background: color('PRIMARY');
   }
 }
 

@@ -14,25 +14,6 @@ import {actions} from "./actions";
 
 const container = document.getElementById("app");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const ease = {
     exponentialIn: (t) => {
         return t == 0.0 ? t : Math.pow(2.0, 10.0 * (t - 1.0));
@@ -198,18 +179,6 @@ export class AppOverlay extends React.Component<OverlayProps, OverlayState> {
         );
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
