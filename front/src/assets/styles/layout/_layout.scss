@@ -38,22 +38,48 @@
 .app-overlay {
   z-index: 10;
 }
+
+.shape-overlays-loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+
+  path {
+    fill: #ffffff;
+  }
+}
+
 .shape-overlays {
   display: none;
-  width: 100vw;
-  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
+
+  path:nth-of-type(1) {
+    fill: darken(color('PRIMARY'), 15%);
+  }
+  path:nth-of-type(2) {
+    fill: #1818A4;
+  }
+  path:nth-of-type(3) {
+    fill: #3b3bc5;
+  }
+
+  circle {
+    fill: darken(color('PRIMARY'), 15%);
+  }
 
   &.is-open {
     display: block;
   }
 }
 
-.shape-overlays path:nth-of-type(1) { fill: darken(color('PRIMARY'), 15%); }
-.shape-overlays path:nth-of-type(2) { fill: #1818A4; }
-.shape-overlays path:nth-of-type(3) { fill: #3b3bc5; }
+
 
 .app-main {
   display: flex;
